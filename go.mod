@@ -1,11 +1,11 @@
 module github.com/bom-squad/protobom
 
-go 1.23
+go 1.25
 
 require google.golang.org/protobuf v1.31.0
 
 require (
-	github.com/CycloneDX/cyclonedx-go v0.7.1
+	github.com/CycloneDX/cyclonedx-go v0.12.0
 	github.com/google/uuid v1.3.0
 	github.com/sirupsen/logrus v1.10.2
 	github.com/spf13/cobra v1.7.0
